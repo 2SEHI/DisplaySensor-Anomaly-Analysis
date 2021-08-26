@@ -1,3 +1,15 @@
+<details>
+<summary><a>text</a></summary>
+<div markdown="1" style="color:red" >
+```python
+from flask import Flask, request, render_template
+# model.py 임포트
+import model
+```
+</div>
+</details>
+
+
 # 디스플레이 센서의 불량품 요인 분석
 
 - 2016/1/1~12/31의 Display Sensor Data를 이용하여 부품폐기의 요인이 되는 sensor 5개를 찾아야함.
