@@ -144,8 +144,8 @@ Factory-Anomaly-Analysis
 - 피처명에 L, R이 반복 등장함 -> L-왼쪽 생산라인, R-오른쪽 생산라인일 것이라 추측 -> 동일한 공정을 수행하는 별개의 라인이라면 두 라인의 데이터를 모두 사용하는 것은 동일한 데이터가 최종 분류 모델에 중복하여 영향력을 주게 됨
 - Left, Right 컬럼별로 분류하여 상관관계 히트맵을 그려본 결과, 두 라인에서 피처간 관계는 비슷한 것을 알 수 있음
 
-<div style="text-align:center"><img src="./docs/images/Left_Columns_Heatmap.png" alt="Left_Columns_Heatmap" style="zoom:30%;" /><img src="./docs/images/Right_Columns_Heatmap.png" alt="Right_Columns_Heatmap" style="zoom: 30%;" />
-</div>
+![left_right_feature_heatmap](https://user-images.githubusercontent.com/58774664/132090272-e2cbd124-d57f-4bb8-b214-00f7349503a3.png)
+
 
 
 
