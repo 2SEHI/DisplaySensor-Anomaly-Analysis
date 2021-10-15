@@ -1,4 +1,5 @@
 # 🖥디스플레이 센서 불량 요인 분석
+## [✏프로젝트 과정 기록](https://2sehi.github.io/categories/#k-digital-project)
 
 ## Repository 구조
 ```
@@ -16,7 +17,7 @@ DisplaySensor-Anomaly-Analysis
 └── 📁old						  # 주차별 수행한 소스파일
 ```
 
-[✏프로젝트 과정 기록](https://2sehi.github.io/categories/#k-digital-project)
+
 
 
 
