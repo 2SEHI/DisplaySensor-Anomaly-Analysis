@@ -4,8 +4,8 @@
 ```
 DisplaySensor-Anomaly-Analysis
 ├─── 📁 data	
-|	├── 📃 factory_all_columns.txt			# 모든 컬럼명
-|	└── 📃 right_columns.txt 				# 오른쪽공정 컬럼명
+|	├── 📃 factory_all_columns.txt		   	# 모든 컬럼명
+|	└── 📃 right_columns.txt 		    	# 오른쪽공정 컬럼명
 ├── 📁 src
 |	├── 📁 01_데이터 탐색 및 전처리
 |	|	├─── 📃1_결측치처리와_상관계수저장.ipynb
@@ -13,7 +13,7 @@ DisplaySensor-Anomaly-Analysis
 |	└── 📁 02_모델링수행
 |		├─── 📃2_PCA와 RandomForest(VIF).ipynb
 |		└─── 📃3_PCA와 RandomForest(noVIF).ipynb
-└── 📁old									# 주차별 수행한 소스파일
+└── 📁old						  # 주차별 수행한 소스파일
 ```
 
 [✏프로젝트 과정 기록](https://2sehi.github.io/categories/#k-digital-project)
@@ -37,7 +37,7 @@ DisplaySensor-Anomaly-Analysis
 - [1) 프로젝트 목적](#1-프로젝트-목적)
 - [2) 프로젝트 배경](#2-프로젝트-배경)
 - [3) 평가지표](#3-평가지표)
-- [4)-프로젝트 기간](#4-프로젝트-기간)
+- [4) 프로젝트 기간](#4-프로젝트-기간)
 - [5) 프로젝트 분석 환경 도구](#5-프로젝트-분석-환경-도구)
 
 
@@ -120,7 +120,6 @@ DisplaySensor-Anomaly-Analysis
 
 ### 3) 피처 분류를 통한 피처 제거
 
-[해당 처리 소스코드]()
 
 - 피처명에 L, R이 반복 등장함 -> L-왼쪽 생산라인, R-오른쪽 생산라인일 것이라 추측 -> 동일한 공정을 수행하는 별개의 라인이라면 두 라인의 데이터를 모두 사용하는 것은 동일한 데이터가 최종 분류 모델에 중복하여 영향력을 주게 됨
 - Left, Right 컬럼별로 분류하여 상관관계 히트맵을 그려본 결과, 두 라인에서 피처간 관계는 비슷한 것을 알 수 있음
